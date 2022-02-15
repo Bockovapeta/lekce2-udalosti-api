@@ -34,3 +34,12 @@ function priNajetiNaCtverec() {
 function zmenStyl() {
     nadpis.classList.toggle('zeleny');
 }
+
+function priNajetiZtucni() {
+    let text = document.querySelector('p');
+    text.style.fontWeight = 'bolder';
+}
+
+function zmenBarvu() {
+    document.querySelector('p').classList.toggle('cerveny');
+}
