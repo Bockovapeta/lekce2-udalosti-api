@@ -124,9 +124,10 @@ li {
 
 p {
 	color: red;
+	display: inline-block;
+	font-size: 16px;
 }
 
 .cerveny {
 	color: black;
-	font-size: 16px;
 }

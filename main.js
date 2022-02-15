@@ -40,6 +40,26 @@ function priNajetiZtucni() {
     text.style.fontWeight = 'bolder';
 }
 
+function priNajetiNormal() {
+    document.querySelector('p').style.fontWeight = 'normal';
+}
+
 function zmenBarvu() {
     document.querySelector('p').classList.toggle('cerveny');
+}
+
+
+function zvetsiText() {
+    document.querySelector('p').style.fontSize = + 1;
+}
+
+
+
+function stiskKlavesy(udalost) {
+    console.log(udalost.key);
+}
+
+function startAudio() {
+    let audioFile = document.getElementById('zvukovaStopa');
+    audioFile.play();
 }
