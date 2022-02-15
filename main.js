@@ -15,4 +15,17 @@ let ctverecek = document.querySelector('div.zluty');
 
 ctverecek.classList.add('ctverecek');
 
-//funkce toggle nám přepíná mezi zapnutí třídy a vypnutí třídy, tzn. pokud tam třída je, tak ji odebere, pokud tam není, tak ji přidá
+// funkce toggle nám přepíná mezi zapnutí třídy a vypnutí třídy, tzn. pokud tam třída je, tak ji odebere, pokud tam není, tak ji přidá
+
+let pocitadlo = 0;
+
+
+//pokud najedu na ctverecek, vypíše se mi to do konzole při každém najetí na čtverec
+
+function priNajetiNaCtverec() {
+    console.log('test' + pocitadlo);
+
+    //   pocitadlo = pocitadlo + 1; stejný zápis je takto:
+
+    pocitadlo++;
+}
