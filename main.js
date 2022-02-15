@@ -29,3 +29,8 @@ function priNajetiNaCtverec() {
 
     pocitadlo++;
 }
+
+
+function zmenStyl() {
+    nadpis.classList.toggle('zeleny');
+}
