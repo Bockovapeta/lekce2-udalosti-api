@@ -18,7 +18,7 @@
 	<button onclick="zmenBarvu()">červený po kliknutí</button>
 	<button onclick="zvetsiText()">větší po kliknutí</button>
 
-
+	<!--
 	<div onmouseover="priNajetiNaCtverec()" class="ctverecek zluty"></div>
 
 	<div onmouseover="priNajetiNaCtverec()" class="ctverecek zeleny"></div>
@@ -26,12 +26,29 @@
 	<img class="obrazek" src="obrazky/kocka.jpg">
 
 	<button class="tlacitko">Čudlajs</button>
-
+-->
 
 	<!-- v prohlížečích je to potlačeno, samo se to nepustí při načtení stránky-->
-	<audio id="zvukovaStopa" src="audio/dingdingdang.mp3" preload="auto"></audio>
 
-	<button class="tlacitko" onclick="startAudio()">Zapni píseň</button>
+	<br>
+	<br>
+
+
+	<img class="pisen" src="obrazky/hudba1.png">
+
+	<audio id="zvukovaStopa" src="audio/dingdingdang.mp3" preload="auto"> </audio>
+
+	<button onclick="startAudio()">Play</button>
+
+	<button onclick="pauseAudio()">Pauza</button>
+
+	<button onclick="volumeI()">Volume 0.1</button>
+
+	<button onclick="volumeII()">Volume 0.5</button>
+
+	<button onclick="volumeIII()">Volume 1</button>
+
+	<button onclick="vratit()">Vrátit na začátek</button>
 
 	<!-- můžeme do script napsat ještě type="text/javascript" dáváme tak najevo, že soubor bude ve formátu js.. je to podobné, jako u linkování css pomocí rel="stylesheet" -->
 

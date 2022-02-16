@@ -1,7 +1,7 @@
 // tady je místo pro náš program
 
 
-
+/*
 
 let nadpis = document.querySelector('h1');
 // přidáme vlastnosti třídy pomocí class.List.add a do závorky napíšeme název css třídy
@@ -29,7 +29,7 @@ function priNajetiNaCtverec() {
 
     pocitadlo++;
 }
-
+*/
 
 function zmenStyl() {
     nadpis.classList.toggle('zeleny');
@@ -48,18 +48,47 @@ function zmenBarvu() {
     document.querySelector('p').classList.toggle('cerveny');
 }
 
-
+let text = 16;
 function zvetsiText() {
-    document.querySelector('p').style.fontSize = + 1;
+    document.querySelector('p').style.fontSize = ((text++) + 'px');
 }
 
 
-
+/*
 function stiskKlavesy(udalost) {
     console.log(udalost.key);
 }
 
+*/
+
 function startAudio() {
     let audioFile = document.getElementById('zvukovaStopa');
+    audioFile.play();
+}
+
+function pauseAudio() {
+    let audioFile = document.getElementById('zvukovaStopa');
+    audioFile.pause();
+}
+
+
+function volumeI() {
+    let audioFile = document.getElementById('zvukovaStopa');
+    audioFile.volume = 0.1;
+}
+
+function volumeII() {
+    let audioFile = document.getElementById('zvukovaStopa');
+    audioFile.volume = 0.5;
+}
+
+function volumeIII() {
+    let audioFile = document.getElementById('zvukovaStopa');
+    audioFile.volume = 1;
+}
+
+function vratit() {
+    let audioFile = document.getElementById('zvukovaStopa');
+    audioFile.load();
     audioFile.play();
 }

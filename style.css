@@ -126,6 +126,17 @@ p {
 	color: red;
 	display: inline-block;
 	font-size: 16px;
+
+}
+
+.pisen {
+	display: block;
+}
+
+.pisen img {
+	margin:0;
+	width: 100px;
+	height: 60px;
 }
 
 .cerveny {
